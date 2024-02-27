@@ -1,0 +1,140 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\Shell\ImageConverter]
+"Position"="Middle"
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"SubCommands"=""
+
+; Image Converter home
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\Shell\ImageConverter\shell\Studio]
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"MUIVerb"="Image Converter Studio"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\Shell\ImageConverter\shell\Studio\command]
+@="\"C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Program Files\\Python Custom Scripts\\Image Converter\\StudioImageConverter.py\" \"%1\""
+
+; JPG
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\Shell\ImageConverter\shell\JPG]
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"MUIVerb"="Convert to JPG"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\Shell\ImageConverter\shell\JPG\command]
+@="\"C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Program Files\\Python Custom Scripts\\Image Converter\\JPGConverter.py\" \"%1\""
+
+; PNG
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\Shell\ImageConverter\shell\PNG]
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"MUIVerb"="Convert to PNG"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\Shell\ImageConverter\shell\PNG\command]
+@="\"C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Program Files\\Python Custom Scripts\\Image Converter\\PNGConverter.py\" \"%1\""
+
+; PNG-Rename
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\Shell\ImageConverter\shell\PNGRename]
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"MUIVerb"="Rename and Convert to PNG"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\Shell\ImageConverter\shell\PNGRename\command]
+@="\"C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Program Files\\Python Custom Scripts\\Image Converter\\PNGConverter-Rename.py\" \"%1\""
+
+; JPG-Rename
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\Shell\ImageConverter\shell\JPGRename]
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"MUIVerb"="Rename and Convert to JPG"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\Shell\ImageConverter\shell\JPGRename\command]
+@="\"C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Program Files\\Python Custom Scripts\\Image Converter\\JPGConverter-Rename.py\" \"%1\""
+
+;AVIF
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avif\Shell\ImageConverter]
+"Position"="Middle"
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"SubCommands"=""
+
+; Image Converter home
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avif\Shell\ImageConverter\shell\Studio]
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"MUIVerb"="Image Converter Studio"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avif\Shell\ImageConverter\shell\Studio\command]
+@="\"C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Program Files\\Python Custom Scripts\\Image Converter\\StudioImageConverter.py\" \"%1\""
+
+; JPG
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avif\Shell\ImageConverter\shell\JPG]
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"MUIVerb"="Convert to JPG"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avif\Shell\ImageConverter\shell\JPG\command]
+@="\"C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Program Files\\Python Custom Scripts\\Image Converter\\JPGConverter.py\" \"%1\""
+
+; PNG
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avif\Shell\ImageConverter\shell\PNG]
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"MUIVerb"="Convert to PNG"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avif\Shell\ImageConverter\shell\PNG\command]
+@="\"C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Program Files\\Python Custom Scripts\\Image Converter\\PNGConverter.py\" \"%1\""
+
+; PNG-Rename
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avif\Shell\ImageConverter\shell\PNGRename]
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"MUIVerb"="Rename and Convert to PNG"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avif\Shell\ImageConverter\shell\PNGRename\command]
+@="\"C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Program Files\\Python Custom Scripts\\Image Converter\\PNGConverter-Rename.py\" \"%1\""
+
+; JPG-Rename
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avif\Shell\ImageConverter\shell\JPGRename]
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"MUIVerb"="Rename and Convert to JPG"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avif\Shell\ImageConverter\shell\JPGRename\command]
+@="\"C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Program Files\\Python Custom Scripts\\Image Converter\\JPGConverter-Rename.py\" \"%1\""
+
+;WEBP
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\Shell\ImageConverter]
+"Position"="Middle"
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"SubCommands"=""
+
+; Image Converter home
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\Shell\ImageConverter\shell\Studio]
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"MUIVerb"="Image Converter Studio"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\Shell\ImageConverter\shell\Studio\command]
+@="\"C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Program Files\\Python Custom Scripts\\Image Converter\\StudioImageConverter.py\" \"%1\""
+
+; JPG
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\Shell\ImageConverter\shell\JPG]
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"MUIVerb"="Convert to JPG"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\Shell\ImageConverter\shell\JPG\command]
+@="\"C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Program Files\\Python Custom Scripts\\Image Converter\\JPGConverter.py\" \"%1\""
+
+; PNG
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\Shell\ImageConverter\shell\PNG]
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"MUIVerb"="Convert to PNG"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\Shell\ImageConverter\shell\PNG\command]
+@="\"C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Program Files\\Python Custom Scripts\\Image Converter\\PNGConverter.py\" \"%1\""
+
+; PNG-Rename
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\Shell\ImageConverter\shell\PNGRename]
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"MUIVerb"="Rename and Convert to PNG"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\Shell\ImageConverter\shell\PNGRename\command]
+@="\"C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Program Files\\Python Custom Scripts\\Image Converter\\PNGConverter-Rename.py\" \"%1\""
+
+; JPG-Rename
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\Shell\ImageConverter\shell\JPGRename]
+"Icon"="C:\\Program Files\\Python Custom Scripts\\Image Converter\\imgconvr.ico"
+"MUIVerb"="Rename and Convert to JPG"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\Shell\ImageConverter\shell\JPGRename\command]
+@="\"C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Program Files\\Python Custom Scripts\\Image Converter\\JPGConverter-Rename.py\" \"%1\""
